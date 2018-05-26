@@ -8,6 +8,6 @@
   * [PersistentVolumeClaims](storage/persistentvolumeclaims.md)
   * [StorageClass](storage/storageclass.md)
 * kubectl
+  * [~/.kube/config](kubectl/.kube-config.md)
   * [Credentials](kubectl/untitled-2.md)
-* [~/.kube/config](.kube-config.md)
 
