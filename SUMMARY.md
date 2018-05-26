@@ -5,9 +5,7 @@
   * [~/.kube/config](kubectl/.kube-config.md)
   * [Credentials](kubectl/credentials.md)
 * Tools
-  * [Port Scanning](tools/port-scanning.md)
 * [k8-byexamples-monorepo](https://github.com/mateothegreat/k8-byexamples-monorepo)
-* Kubernetes Specs
 
 ## Kubernetes Specs
 
@@ -17,4 +15,9 @@
 * [Storage](kubernetes-specs/storage/README.md)
   * [PersistentVolumeClaims](kubernetes-specs/storage/persistentvolumeclaims.md)
   * [StorageClass](kubernetes-specs/storage/storageclass.md)
+  * [Port Scanning](kubernetes-specs/storage/port-scanning.md)
+
+## Tools
+
+* [Port Scanning](tools-1/port-scanning.md)
 
