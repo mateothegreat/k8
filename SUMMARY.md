@@ -3,6 +3,7 @@
 * [k8](README.md)
 * [AWS to GCP Proxy](aws-to-gcp-proxy.md)
 * [Ingress + TLS Termination](ingress-+-tls-termination.md)
+* [HAproxy](haproxy.md)
 
 ## Kubernetes Specs
 
@@ -19,7 +20,6 @@
   * [~/.kube/config](tools/kubectl/.kube-config.md)
   * [Credentials](tools/kubectl/credentials.md)
 * [Port Scanning](tools/port-scanning.md)
-* [k8-byexamples-monorepo](https://github.com/mateothegreat/k8-byexamples-monorepo)
 
 ## Resources
 
