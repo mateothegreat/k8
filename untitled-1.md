@@ -1,4 +1,4 @@
-# Namespace
+# Namespaces
 
 {% code-tabs %}
 {% code-tabs-item title="namespace.yaml" %}

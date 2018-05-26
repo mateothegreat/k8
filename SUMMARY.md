@@ -1,10 +1,10 @@
 # Table of contents
 
 * [k8](README.md)
-* [Namespace](untitled-1.md)
+* [Namespaces](untitled-1.md)
 * Deployments
 * [Services](services.md)
-* Storage
+* [Storage](storage/README.md)
   * [PersistentVolumeClaims](storage/persistentvolumeclaims.md)
   * [StorageClass](storage/storageclass.md)
 * kubectl
