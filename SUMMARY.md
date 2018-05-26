@@ -4,6 +4,7 @@
 * [Namespace](untitled-1.md)
 * Deployments
 * [Services](services.md)
-* [PersistentVolumeClaims](persistentvolumeclaims.md)
-* [StorageClass](storageclass.md)
+* Storage
+  * [PersistentVolumeClaims](storage/persistentvolumeclaims.md)
+  * [StorageClass](storage/storageclass.md)
 
