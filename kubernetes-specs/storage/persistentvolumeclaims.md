@@ -19,7 +19,7 @@ spec:
   resources:
     requests:
       storage: 100Gi
-
+  persistentVolumeReclaimPolicy: Retain
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
