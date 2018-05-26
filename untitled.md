@@ -1,0 +1,46 @@
+# Deployments
+
+{% code-tabs %}
+{% code-tabs-item title="mysql-deployment.yaml" %}
+```yaml
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: mysql
+  labels:
+    app: mysql
+spec:
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: mysql
+    spec:
+      containers:
+      - image: mysql:5.6
+        name: mysql
+        env:
+        - name: MYSQL_DATABASE
+          value: $MYSQL_DATABASE
+        - name: MYSQL_USER
+          value: $MYSQL_USER
+        - name: MYSQL_PASSWORD
+          value: $MYSQL_PASSWORD
+        - name: MYSQL_ROOT_PASSWORD
+          value: $MYSQL_ROOT_PASSWORD
+        ports:
+        - containerPort: 3306
+          name: mysql
+        volumeMounts:
+        - name: mysql-persistent-storage
+          mountPath: /var/lib/mysql
+      volumes:
+      - name: mysql-persistent-storage
+        persistentVolumeClaim:
+          claimName: mysql
+
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
