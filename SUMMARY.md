@@ -18,5 +18,5 @@
 
 ## Tools
 
-* [Port Scanning](tools-1/port-scanning.md)
+* [Port Scanning](tools/port-scanning.md)
 
