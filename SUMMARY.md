@@ -9,4 +9,5 @@
   * [StorageClass](storage/storageclass.md)
 * kubectl
   * [Credentials](kubectl/untitled-2.md)
+* [~/.kube/config](.kube-config.md)
 
