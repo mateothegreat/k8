@@ -11,5 +11,5 @@
   * [~/.kube/config](kubectl/.kube-config.md)
   * [Credentials](kubectl/untitled-2.md)
 * Tools
-* [Port Scanning](untitled-2.md)
+  * [Port Scanning](tools/untitled-2.md)
 
