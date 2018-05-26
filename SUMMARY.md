@@ -3,7 +3,7 @@
 * [k8](README.md)
 * kubectl
   * [~/.kube/config](kubectl/.kube-config.md)
-  * [Credentials](kubectl/untitled-2.md)
+  * [Credentials](kubectl/credentials.md)
 * Tools
   * [Port Scanning](tools/port-scanning.md)
 * [k8-byexamples-monorepo](https://github.com/mateothegreat/k8-byexamples-monorepo)
