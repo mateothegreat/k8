@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [k8](README.md)
 * [Namespace](untitled-1.md)
 * Deployments
 * [Services](services.md)
