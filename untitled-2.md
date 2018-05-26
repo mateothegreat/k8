@@ -1,3 +1,10 @@
+---
+description: >-
+  You can use my nmap docker image to perform a network port scan from within
+  the cluster by launching the docker-alpine-nmap container below and issuing an
+  nmap command pointing to a service within.
+---
+
 # Port Scanning
 
 ```bash
