@@ -1,7 +1,6 @@
 # Table of contents
 
 * [k8](README.md)
-* [Namespaces](untitled-1.md)
 * kubectl
   * [~/.kube/config](kubectl/.kube-config.md)
   * [Credentials](kubectl/untitled-2.md)
