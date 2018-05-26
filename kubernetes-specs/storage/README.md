@@ -2,7 +2,7 @@
 
 ## Dynamic Provisioning
 
-![](../.gitbook/assets/maxresdefault.jpg)
+![](../../.gitbook/assets/maxresdefault.jpg)
 
 In order to allow dynamic provisioning, you must first have a [StorageClass](storageclass.md).
 

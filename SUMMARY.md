@@ -2,10 +2,6 @@
 
 * [k8](README.md)
 * [Namespaces](untitled-1.md)
-* [Deployments](untitled.md)
-* [Storage](storage/README.md)
-  * [PersistentVolumeClaims](storage/persistentvolumeclaims.md)
-  * [StorageClass](storage/storageclass.md)
 * kubectl
   * [~/.kube/config](kubectl/.kube-config.md)
   * [Credentials](kubectl/untitled-2.md)
@@ -18,4 +14,8 @@
 ## Kubernetes Specs
 
 * [Namespaces](kubernetes-specs/namespaces.md)
+* [Deployments](kubernetes-specs/untitled.md)
+* [Storage](kubernetes-specs/storage/README.md)
+  * [PersistentVolumeClaims](kubernetes-specs/storage/persistentvolumeclaims.md)
+  * [StorageClass](kubernetes-specs/storage/storageclass.md)
 
