@@ -1,6 +1,7 @@
 # Table of contents
 
 * [k8](README.md)
+* [AWS to GCP Proxy](aws-to-gcp-proxy.md)
 * kubectl
   * [~/.kube/config](kubectl/.kube-config.md)
   * [Credentials](kubectl/credentials.md)
