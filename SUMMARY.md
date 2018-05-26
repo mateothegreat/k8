@@ -8,5 +8,5 @@
   * [PersistentVolumeClaims](storage/persistentvolumeclaims.md)
   * [StorageClass](storage/storageclass.md)
 * kubectl
-* [Credentials](untitled-2.md)
+  * [Credentials](kubectl/untitled-2.md)
 
