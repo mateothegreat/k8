@@ -9,7 +9,7 @@ kubectl config set-credentials sa-user --token=$(kubectl get secret <secret_name
 #### Creating a Cluster Admin Binding
 
 ```bash
-kubectl create clusterrolebinding cluster-admin-binding-shawn --clusterrole=cluster-admin --user=$(gcloud info | grep Account | cut -d '[' -f 2 | cut -d ']' -f 1)
+kubectl create clusterrolebinding cluster-admin-binding --clusterrole=cluster-admin --user=$(gcloud info | grep Account | cut -d '[' -f 2 | cut -d ']' -f 1)
 ```
 
 
