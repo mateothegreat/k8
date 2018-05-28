@@ -1,5 +1,17 @@
 # Credentials
 
+#### Create ServiceAccount
+
+```text
+kubectl create serviceaccount jenkins-sa
+```
+
+#### Retrieve \(decoded\) token from secret created for ServiceAccount
+
+```text
+kubectl get secret jenkins-sa-token-vnp5k -o jsonpath={.data.token} | base64 -d
+```
+
 #### Configuring a Service Account
 
 ```bash
