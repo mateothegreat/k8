@@ -12,16 +12,42 @@ kubectl create serviceaccount jenkins-sa
 kubectl get secret jenkins-sa-token-vnp5k -o jsonpath={.data.token} | base64 -d
 ```
 
-#### Configuring a Service Account
+#### Create ~/.kube/config with CA & ServiceAccount Token
+
+```text
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: <insert plain text CA>
+    server: https://<api endpoint>
+  name: <cluster name>
+contexts:
+- context:
+    cluster: <cluster name>
+    namespace: default
+    user: default
+  name: <cluster name>
+current-context: <cluster name>
+kind: Config
+preferences: {}
+users:
+- name: default
+  user:
+    as-user-extra: {}
+    token: <insert base64 decoded token from service account user>
+```
 
 ```bash
-kubectl config set-credentials sa-user --token=$(kubectl get secret <secret_name> -o jsonpath={.data.token} | base64 -d)
+kubectl config set-credentials sa-user \
+        --token=$(kubectl get secret <secret_name> -o jsonpath={.data.token} | base64 -d)
 ```
 
 #### Creating a Cluster Admin Binding
 
 ```bash
-kubectl create clusterrolebinding cluster-admin-binding --clusterrole=cluster-admin --user=$(gcloud info | grep Account | cut -d '[' -f 2 | cut -d ']' -f 1)
+kubectl create clusterrolebinding jenkins-sa-binding \
+        --clusterrole=cluster-admin \
+        --user="system:serviceaccount:default:jenkins-sa"
 ```
 
 
