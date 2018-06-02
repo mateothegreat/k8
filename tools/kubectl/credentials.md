@@ -2,7 +2,7 @@
 
 #### Create ServiceAccount
 
-```text
+```bash
 kubectl create serviceaccount jenkins-sa
 ```
 
@@ -14,7 +14,9 @@ kubectl get secret jenkins-sa-token-vnp5k -o jsonpath={.data.token} | base64 -d
 
 #### Create ~/.kube/config with CA & ServiceAccount Token
 
-```text
+{% code-tabs %}
+{% code-tabs-item title="~/.kube/config" %}
+```yaml
 apiVersion: v1
 clusters:
 - cluster:
@@ -36,6 +38,8 @@ users:
     as-user-extra: {}
     token: <insert base64 decoded token from service account user>
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 ```bash
 kubectl config set-credentials sa-user \

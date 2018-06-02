@@ -18,7 +18,6 @@
 ## Tools
 
 * kubectl
-  * [~/.kube/config](tools/kubectl/.kube-config.md)
   * [Credentials](tools/kubectl/credentials.md)
 * [Port Scanning](tools/port-scanning.md)
 
