@@ -8,8 +8,11 @@ description: >-
 # Port Scanning
 
 ```bash
-$ kubectl run --image=appsoa/docker-alpine-nmap --rm -i -t nm -- -Pn -p9200,9300 elasticsearch.es elasticsearch-discovery.es
+kubectl run --image=appsoa/docker-alpine-nmap --rm -it nm -- \
+            -Pn -p9200,9300 elasticsearch.es elasticsearch-discovery.es
+```
 
+```bash
 Starting Nmap 7.40 ( https://nmap.org ) at 2018-02-03 16:54 UTC
 
 Nmap scan report for elasticsearch.es (10.15.248.94)
