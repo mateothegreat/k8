@@ -17,7 +17,7 @@
 
 ## Tools
 
-* kubectl
+* [kubectl](tools/kubectl/README.md)
   * [Credentials](tools/kubectl/credentials.md)
 * [Port Scanning](tools/port-scanning.md)
 
