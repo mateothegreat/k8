@@ -11,6 +11,7 @@
 * [Namespaces](kubernetes-specs/namespaces.md)
 * [Deployments](kubernetes-specs/untitled.md)
 * [Services](kubernetes-specs/services.md)
+* [InitContainers](kubernetes-specs/initcontainers.md)
 * [Storage](kubernetes-specs/storage/README.md)
   * [PersistentVolumeClaims](kubernetes-specs/storage/persistentvolumeclaims.md)
   * [StorageClass](kubernetes-specs/storage/storageclass.md)
