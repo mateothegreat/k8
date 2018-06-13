@@ -26,4 +26,5 @@
 
 * [k8-byexamples-monorepo](https://github.com/mateothegreat/k8-byexamples-monorepo)
 * [Windows](resources/windows.md)
+* [Troubleshooting](resources/troubleshooting.md)
 
