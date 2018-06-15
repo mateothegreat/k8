@@ -13,8 +13,9 @@
 
 * [Namespaces](kubernetes-specs/namespaces.md)
 * [Deployments](kubernetes-specs/untitled.md)
-* [Services](kubernetes-specs/services.md)
 * [InitContainers](kubernetes-specs/initcontainers.md)
+* [Ingress](kubernetes-specs/ingress.md)
+* [Services](kubernetes-specs/services.md)
 * [Storage](kubernetes-specs/storage/README.md)
   * [PersistentVolumeClaims](kubernetes-specs/storage/persistentvolumeclaims.md)
   * [StorageClass](kubernetes-specs/storage/storageclass.md)
@@ -30,5 +31,4 @@
 * [Curated Resources List](resources/curated-resources-list.md)
 * [Community](resources/community.md)
 * [Contact Me](resources/contact-me.md)
-* [Ingress](resources/ingress.md)
 
