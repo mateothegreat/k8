@@ -1,10 +1,13 @@
 # Table of contents
 
 * [k8](README.md)
+* [k8-byexamples-monorepo](https://github.com/mateothegreat/k8-byexamples-monorepo)
 * [AWS to GCP Proxy](aws-to-gcp-proxy.md)
 * [Ingress + TLS Termination](ingress-+-tls-termination.md)
 * [Docker](docker.md)
 * [HAproxy](haproxy.md)
+* [Troubleshooting](troubleshooting.md)
+* [Windows](windows.md)
 
 ## Kubernetes Specs
 
@@ -24,7 +27,7 @@
 
 ## Resources
 
-* [k8-byexamples-monorepo](https://github.com/mateothegreat/k8-byexamples-monorepo)
-* [Windows](resources/windows.md)
-* [Troubleshooting](resources/troubleshooting.md)
+* [Curated Resources List](resources/curated-resources-list.md)
+* [Community](resources/community.md)
+* [Contact Me](resources/contact-me.md)
 
