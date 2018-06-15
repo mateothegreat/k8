@@ -30,4 +30,5 @@
 * [Curated Resources List](resources/curated-resources-list.md)
 * [Community](resources/community.md)
 * [Contact Me](resources/contact-me.md)
+* [Ingress](resources/ingress.md)
 
