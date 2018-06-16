@@ -31,7 +31,7 @@
 * [Curated Resources List](resources/curated-resources-list.md)
 * [Community](resources/community.md)
 * [Contact Me](resources/contact-me.md)
-* [Setting up Ingress Controller](setting-up-ingress-controller.md)
+* [Ingress Controller + LetsEncrypt](setting-up-ingress-controller.md)
 
 ## K8-BYEXAMPLES
 
