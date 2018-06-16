@@ -35,3 +35,5 @@
 
 ## K8-BYEXAMPLES
 
+* [IngressController+LetsEncrypt](k8-byexamples/ingresscontroller+letsencrypt.md)
+
