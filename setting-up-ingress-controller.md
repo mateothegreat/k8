@@ -1,6 +1,6 @@
 # Ingress Controller + LetsEncrypt
 
-### Install cert-manager
+### Install cert-manager \(optional\)
 
 ```bash
 git clone https://github.com/mateothegreat/k8-byexamples-cert-manager
@@ -26,7 +26,7 @@ make install LOADBALANCER_IP=35.200.108.203
 
 ### Create Ingress Resource & Certificate Request
 
-We need an "Ingress Resource" which maps our hostname \(and/or paths\) to a specific service.  
+We need an _**Ingress Resource**_ which maps our hostname \(and/or paths\) to a specific service.  
 We will also create a "Certificate Request" Resource which will request an **SSL certificate** to be issued from LetsEncrypt.org by means of our cert-manager deployed pod.
 
 ```bash
