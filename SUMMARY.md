@@ -8,6 +8,7 @@
 * [HAproxy](haproxy.md)
 * [Troubleshooting](troubleshooting.md)
 * [Windows](windows.md)
+* [Commands](commands.md)
 
 ## Kubernetes Specs
 
