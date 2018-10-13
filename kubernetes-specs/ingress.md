@@ -22,9 +22,7 @@ Setting up Basic Auth is pretty straightforward as you only need to generate the
 {% code-tabs %}
 {% code-tabs-item title="create-secret.sh" %}
 ```bash
-htpasswd -cb auth $(USERNAME) $(PASSWORD)kubectl create secret generic "nginx-ingress-basic-auth" --from-file="auth"
-The secret created will look like this:
-apiVersion: v1kind: Secretmetadata:  name: nginx-ingress-basic-authtype: Opaquedata:  auth: dXNlcjp5LWJhc2g1LkQuRlJTdDlvU0tieDByN2pFaXJiaHEuSmNLaUZScUJWRw==
+htpasswd -cb auth $(USERNAME) $(PASSWORD)kubectl create secret generic "nginx-ingress-basic-auth" --from-file="auth"The secret created will look like this:apiVersion: v1kind: Secretmetadata:  name: nginx-ingress-basic-authtype: Opaquedata:  auth: dXNlcjp5LWJhc2g1LkQuRlJTdDlvU0tieDByN2pFaXJiaHEuSmNLaUZScUJWRw==
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}

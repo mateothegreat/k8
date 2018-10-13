@@ -8,7 +8,7 @@ description: >-
 # Contact Me
 
 | Email | [matthew@matthewdavis.io](mailto:matthew@matthewdavis.io) |
-| --- | --- | --- | --- | --- |
+| :--- | :--- |
 | GitHub | [https://github.com/mateothegreat](https://github.com/mateothegreat) |
 | Skype | [matthew@matthewdavis.io](skype:matthew@matthewdavis.io) |
 | LinkedIn | [https://linkedin.com/in/runtotrouble](https://linkedin.com/in/runtotrouble) |
