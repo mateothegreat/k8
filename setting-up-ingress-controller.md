@@ -3,8 +3,9 @@
 ### Install cert-manager \(optional\)
 
 ```bash
-git clone 
+git clone https://github.com/mateothegreat/k8-byexamples-cert-manager
 cd k8-byexamples-cert-manager
+git submodule update --init
 make install
 ```
 
